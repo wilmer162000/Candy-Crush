@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Candy Crush</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".candy").click(function(){
+                    $(this).hide();
+                });
+
+                $("input").click(function() {
+                    $(".candy").show()
+                })
+            });
+        </script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main class="frame">
+                <div class="table">
+                    <div class="candy multi"></div>
+                    <div class="candy orange"></div>
+                    <div class="candy orange"></div>
+                    <div class="candy red"></div>
+                    <div class="candy multi"></div>
+                    <div class="candy yellow"></div>
+                    <div class="candy orange"></div>
+                    <div class="candy yellow"></div>
+                    <div class="candy orange"></div>
+                    <div class="candy red"></div>
+                    <div class="candy orange"></div>
+                    <div class="candy red"></div>
+                    <div class="candy yellow"></div>
+                    <div class="candy red"></div>
+                    <div class="candy yellow"></div>
+                    <div class="candy orange"></div>
+                </div>
+                <input type="button" value="Reset Game">
+                <img class="bg" src="background.jpg" alt="bg">
+        </main>
+    </body>
+</html>

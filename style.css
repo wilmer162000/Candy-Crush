@@ -1,0 +1,61 @@
+.bg{
+    width: 100%;
+    height: auto;
+}
+
+div.table{
+    width: 460px;
+    height: 460px;
+    margin: 30px 300px 20px 700px;
+    position: absolute;
+    background-color: rgba(2, 4, 7, 0.596);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+div.candy {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block;
+
+
+}
+
+.red{
+    background-image: url(red_candy.png);
+    background-size: 90px; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.multi{
+    background-image: url(multicolor_candy.png);
+    background-size: 100px; 
+    background-position: center;
+}
+
+.yellow{
+    background-image: url(yellow_candy.png);
+    background-size: 70px; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.orange{
+    background-image: url(orange_candy.png);
+    background-size: 70px; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input{
+    position: absolute;
+    top: 530px;
+    left: 880px;
+    padding: 10px 20px;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+}
